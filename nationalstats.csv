@@ -1,0 +1,10 @@
+NFIRS major incident type category ,Description ,Total Calls Percentage,Winter Percentage,Spring Percentage,Summer Percentage,Fall Percentage
+100-173 ,Fire (excludes incident type 110) ,4.5,4.5,4.7,4.3,4.5
+200-251 ,Overpressure Rupture/Explosion (No Fire) ,0.1,0.2,0.1,0.2,0.1
+300-381,EMS and Rescue,64.1,65.2,64.9,63.4,63.1
+400-482,Hazardous Condition (No Fire),3.6,3.6,3.4,3.7,3.6
+500-571,Service Call,7.1,7.1,7.1,7,7.4
+600-672,Good Intent Call,11.3,10.6,11,11.8,11.9
+700-751,False Alarm and False Call,8.2,8,7.8,8.6,8.5
+800-815,Severe Weather/Natural Disaster,0.1,0.1,0.2,0.2,0.1
+900-911,Special Incident Type,0.8,0.7,0.8,0.9,0.8

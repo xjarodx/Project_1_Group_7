@@ -22,10 +22,10 @@ Weather Fields: Date, Latitude, Longitude, Humidity, Max Temperature, Total Sun 
 Tasks Due on Saturday:
 •	Put fire data in DataFrame and share – Laura
 •	Explore fire data – All 
-•	Pull weather data – Jarrod
+•	Pull weather data – Jarod
 •	Find Wake County Demographic Data – Virgil 
 •	Get National Fire Incident Reporting Codes in a list – Jill
 •	See if there are national stats - Jennifer
 •	Start Presentation – Jennifer 
-•	Look into animated maps – Jarrod
+•	Look into animated maps – Jarod
 •	Is there other county data for other NC regions - Laura

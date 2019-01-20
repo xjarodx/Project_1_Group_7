@@ -1,6 +1,9 @@
 # Project_1_Group_7
 First Project Group 7 Homework
 
+Project 1 Group #7
+Project Proposal 
+ 
 Summary: Our project is to uncover patterns in fire data in Wake County, North Carolina. We’ll examine relationships between types of calls, weather over time, and related questions as time permits. 
 Data: Wake County fire department incident data 
 Questions:

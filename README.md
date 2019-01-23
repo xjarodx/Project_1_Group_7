@@ -13,7 +13,10 @@ From the Raleigh Open Data website, we know there are 177,738 rows available. Th
 
 Our try-except loop caught one call that repeatedly failed, but we were able to pull that set down from the web interface manually. We then parsed the two JSON files separately (one was a list, one was a single JSON set), created Pandas dataframes from the parsed data and appended the manually fetched set to the larger one.
 
-There were 175738 records in the main set, but 1425 lacked coordinates, 1626 records lacked incident_type, 1436 were missing dispatch date/time and two did not have cleared date. The ‘missing’ set had 2000 records, 24 missing coordinates, 49 missing type.
+There were 175738 records in the main set, but 1425 lacked coordinates, 1626 records lacked incident_type, 1436 were missing dispatch date/time and two did not have cleared date. The ‘missing’ set had 2000 records, 24 missing coordinates, 49 missing type. 
+![See this notebook](/FireDataAPI.ipynb)
+![See this notebook for missing ones](/FireDataAPI_missing.ipynb)
+![See this notebook for cleaning](Fire_Data_Cleaning_final.ipynb)
 
 Once the two sets were merged, they were further cleaned by removing records from 2007, which had partial data, and 2019. After removing these records, we used a total of 158423 for further analysis.
 

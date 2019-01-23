@@ -14,11 +14,16 @@ From the Raleigh Open Data website, we know there are 177,738 rows available. Th
 Our try-except loop caught one call that repeatedly failed, but we were able to pull that set down from the web interface manually. We then parsed the two JSON files separately (one was a list, one was a single JSON set), created Pandas dataframes from the parsed data and appended the manually fetched set to the larger one.
 
 There were 175738 records in the main set, but 1425 lacked coordinates, 1626 records lacked incident_type, 1436 were missing dispatch date/time and two did not have cleared date. The ‘missing’ set had 2000 records, 24 missing coordinates, 49 missing type. 
-![See this notebook](/FireDataAPI.ipynb)
-![See this notebook for missing ones](/FireDataAPI_missing.ipynb)
-![See this notebook for cleaning](Fire_Data_Cleaning_final.ipynb)
+
+![See this notebook](/FireDataAPI.ipynb) for the main set API calls
+
+![See this notebook for missing ones](/FireDataAPI_missing.ipynb) for the missing set
+
+![See this notebook for cleaning](Fire_Data_Cleaning_final.ipynb) for all the cleaning
 
 Once the two sets were merged, they were further cleaned by removing records from 2007, which had partial data, and 2019. After removing these records, we used a total of 158423 for further analysis.
+
+![See this notebook for general analysis](/General%20Fire%20Incident%20Stats.ipynb)
 
 For data analysis, we had to reformat the POSIX date time columns to datetime objects using the Pandas to_datetime function. This was tricky because we also had to take into consideration the times were UTC and needed to convert to EST time zone. We used dispatch datetime to create Year and YYYY-MM-DD dates for merging with population data and weather data, respectively.
 
@@ -50,12 +55,14 @@ Incidents tend to peak during waking hours, especially late afternoon.
 
 
 ## Station response time analysis:
+![See this notebook for station analysis](/Fire_Stations.ipynb)
 
-A list of stations was obtained from the Wake County website.
-There was one record with station number 13, which does not exist.
+A list of stations was obtained from the Wake County website. There was one record with station number 13, which does not exist.
+
 There were 30034 rows without arrival times, so for the purposes of this analysis those were removed as arrival time was used to calculate the response from dispatch time.
 
 These nulls fell into the following categories:
+
   -Dispatched & cancelled en route
   -False alarm or false call Other
   -Cover assignment standby moveup
@@ -93,7 +100,7 @@ Fire incidents were mapped by zip code and charted by animated gif over the year
 
 ## National Statistics
 
-The FEMA US Fire Administration National Fire Data Center discloses overall statistics on their federal webpage. Access to the specific data is limited to state program managers and fire departments or through request for CD/DVD. So, we took the various data presented on the federal webpage and compiled into spreadsheets that were uploaded into jupyter notebook. 
+The FEMA US Fire Administration National Fire Data Center discloses overall statistics on their federal webpage. Access to the specific data is limited to state program managers and fire departments or through request for CD/DVD. So, we took the various data presented on the federal webpage and compiled into spreadsheets that were uploaded into ![jupyter notebook](/nationalstats.ipynb). 
 
 Please note that EMS comprises about 70% of incidents however that data is protected under HIPPA and will not be included in the scope of this project.
 

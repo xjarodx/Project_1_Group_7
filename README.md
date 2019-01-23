@@ -98,5 +98,5 @@ The FEMA US Fire Administration National Fire Data Center discloses overall stat
 Please note that EMS comprises about 70% of incidents however that data is protected under HIPPA and will not be included in the scope of this project.
 
 We used the National Fire Incident Reporting System (NFIRS), the reporting standard that fire departments use to uniformly report on the full range of their activities, to bin incidents and create comprable graphs to evaluate how Raleigh Fire Department compares to national statistics. At the national level, Good Intent Calls were roughly 32% followed by False Alarms with 23%. However, NC had 36% False Alarms followed by Good Intent with 31%. So False Alarms in NC were significantly higher. 
-![See this graph:](graphics/National Number of Incidents by Type.png)
-![See this graph:](gRaleigh FD Number of Incidents by Type.png)
+![See this graph:](graphics/National_Number_of_Incidents_by_Type.png)
+![See this graph:](graphcs/Raleigh_FD_Number_of_Incidents_by_Type.png)

@@ -1,0 +1,9 @@
+NFIRS major incident type category ,Description ,Calls,Total Percentage
+100-173 ,Fire (excludes incident type 110) ,1156199,12.6%
+200-251 ,Overpressure Rupture/Explosion (No Fire) ,25693,0.3%
+400-482,Hazardous Condition (No Fire),924959,10.1%
+500-571,Service Call,1824224,19.9%
+600-672,Good Intent Call,2903343,31.7%
+700-751,False Alarm and False Call,2106851,23.0%
+800-815,Severe Weather/Natural Disaster,25693,0.3%
+900-911,Special Incident Type,205546,2.2%

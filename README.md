@@ -94,6 +94,17 @@ However, looking at just the fire codes (100's) and severe weather/disaster code
 ![See this graph:](graphics/fires_by_year_month.png)
 ![See this graph:](graphics/storms_by_year_month.png)
 
+When looking at only fires (codes 100-199) there doesn't seem to be a pattern by month, even though one might expect peaks around Christmas, or 4th of July. There are more fires in January-April and July than in other months. When looking at only storm incidents, there were a few major events visible:
+
+    -In April 2011 there was a tornado outbreak
+    -In August 2011 Hurricane Irene
+    -In October 2016 Hurricane Matthew
+    -In April 2017 there was record rainfall
+
+2018 data may be incomplete in this dataset, but there was a visible impact of Hurricane Florence in September or the snowfall in December.
+
+July and April are generally the biggest months for storm incidents.
+
 Fire incidents were mapped by zip code and charted by animated gif over the years studied. It appeared that the downtown zip code 27601 consistently had the highest number of incidents.
 
 ![See this gif:](https://github.com/xjarodx/Project_1_Group_7/blob/master/Mapping/Maps/maps%20used%20to%20make%20gif%20with%20title/Fires.gif)
